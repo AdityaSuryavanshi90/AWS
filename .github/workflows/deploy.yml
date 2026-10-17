@@ -17,7 +17,7 @@ jobs:
         with:
           host: ${{secrets.SSH_HOST}}
           username: ubuntu
-          key: ${{secrets.SS_KEY}}
+          key: ${{secrets.SSH_KEY}}
           script: |
             cd ~/AWS
             git pull
