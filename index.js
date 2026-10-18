@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   return res
     .status(200)
     .json({
-      message: "hello bro mene aws ka ci/cd sikh liya bro ekdhm badiya yaar",
+      message: "hello bro mene aws ka ci/cd sikh liya  ekdhm badiya yaar",
       PORT,
     });
 });
